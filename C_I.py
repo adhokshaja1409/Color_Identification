@@ -54,8 +54,6 @@ for file in os.listdir(IMAGE_DIRECTORY):
         plt.subplot(1, len(images), i+1)
         plt.imshow(images[i])
 
-    
-
 def match_image_by_color(image, color, threshold = 60, number_of_colors = 10): 
     
     image_colors = get_colors(image, number_of_colors, False)
