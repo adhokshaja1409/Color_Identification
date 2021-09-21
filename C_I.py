@@ -90,7 +90,7 @@ def show_selected_images(images, color, threshold=60, colors_to_match =15):
                                         threshold,
                                         colors_to_match)
         if (selected):
-            plt.subplot(1, 5, index)
+            plt.subplot(1, 6, index)
             plt.imshow(images[i])
             index += 1
 
